@@ -1,0 +1,163 @@
+html {
+    background-color: #000000;
+}
+
+.gallery-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    flex-direction: column;
+}
+
+.gallery-title img {
+    width: 30%;
+}
+
+.gallery-title h1 {
+    width: 70%;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    grid-template-rows: masonry;
+}
+
+h2.subtitle {
+    padding-bottom: 15px;
+    border-bottom: 4px solid rgba(187, 159, 10, 1);
+}
+
+
+
+/* MENU RESPOSNIVE */
+
+.logo {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.logo a {
+    color: var(--paragraph-color);
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    color: var(--paragraph-color);
+    border-bottom: 0.2px solid rgba(255, 255, 255, 0.6);
+}
+
+.menu-div {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: var(--f-fam-btn);
+}
+
+.menu-div:hover {
+    color: gray;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Menu Stuff */
+
+.menu {
+    opacity: 0.3;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: fixed;
+    top: -100%;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    z-index: 3;
+    color: var(--paragraph-color);
+}
+
+.nav {
+    opacity: 0;
+    margin-bottom: -20px;
+}
+
+.nav-link {
+    color: var(--paragraph-color);
+    text-decoration: none;
+    font-size: 3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: gray;
+    transition: all 0.2s ease-in-out;
+}
+
+.background {
+    position: absolute;
+    font-size: 15rem;
+    font-weight: 600;
+    color: rgba(235, 235, 235, 0.04);
+    user-select: none;
+    z-index: 1;
+}
+
+.small-number {
+    font-size: 1.2rem;
+}
+
+.exit {
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.title {
+    font-size: 2rem;
+    color: rgb(170, 151, 126);
+}
+
+.right {
+    padding-right: 100px;
+}
+
+.information {
+    margin-bottom: 24px;
+}
+
+.menu-container {
+    z-index: 3;
+}
+
+.social-medias>a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+/* Media Query */
+@media screen and (max-width: 660px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right {
+        display: none;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

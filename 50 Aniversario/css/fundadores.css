@@ -1,0 +1,68 @@
+html {
+    background-color: black;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.transparente {
+    color: rgba(255, 255, 255, 0)
+}
+
+.aside-full {
+    height: 100vh;
+}
+
+.aside-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aside-title {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #BB9F0A;
+}
+
+.aside-info {
+    margin-top: 20px;
+}
+
+.responsive-img {
+    width: 100%;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.btn {
+    list-style: none;
+    text-decoration: none;
+    border-bottom: 2px solid #BB9F0A;
+    padding-bottom: 7px;
+    color: #BB9F0A;
+
+}
+
+/*
+.logo a {
+    font-family: 'Playball', cursive;
+    background-image: linear-gradient(to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+*/
+
